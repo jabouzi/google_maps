@@ -1,0 +1,9 @@
+TEMPLATE = app
+QT = gui core webkit
+CONFIG += qt warn_on console release
+OBJECTS_DIR = build
+MOC_DIR = build
+UI_DIR = build
+FORMS = ui/google_maps.ui
+HEADERS = src/google_maps.h
+SOURCES = src/google_maps.cpp src/main.cpp
